@@ -1,0 +1,88 @@
+main {
+  
+}
+
+main > section {
+ background-color: var(--gray-200-base);
+ width: 85.375rem;
+ padding: 4.5rem 7.5rem 9rem 7.5rem;
+ margin: auto;
+}
+
+main section header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+#container-projects {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 65rem;
+  height: 37rem;
+
+  figure {
+    background-color: var(--gray-300-base);
+    width: 20.625rem;
+    height: 17.5rem;
+    padding: 0.75rem 0.75rem 1rem;
+    border-radius: 10px;
+  }
+
+  figure:hover {
+    border: solid 1px var(--gray-400-base);
+  }
+  img {
+    width: 19.125rem;
+    height: 9.75rem;
+    border-radius: 8px;
+  }  
+}
+
+.description-card {
+  font: var(--text-sm);
+  color: var(--gray-500-base);
+}
+
+#section-service {
+  background-color: var(--gray-100-base);
+  padding: 5.5rem 7.5rem 7.5rem;
+}
+
+#container-services {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  width: 55.5rem;
+  height: 9,6875rem;
+
+  figure {
+    border: solid 1px var(--gray-200-base);
+    border-radius: 10px;
+    width: 17.8rem;
+    height: 9.6875rem;
+    padding: 1.25rem;
+  }
+
+  #icon-pc-color {
+    width: 2.75rem;
+    height: 2.0625rem;
+    filter: brightness(0) saturate(100%) invert(66%) sepia(43%) saturate(5190%) hue-rotate(230deg) brightness(95%) contrast(92%);
+  }
+
+  #icon-server-color {
+    width: 2.25rem;
+    height: 2.0625rem;
+    filter: brightness(0) saturate(100%) invert(73%) sepia(70%) saturate(350%) hue-rotate(353deg) brightness(97%) contrast(89%);
+  }
+
+  #icon-infinity-color {
+    width: 2.8125rem;
+    height: 1.3125rem;
+    margin-block: 0.4rem;
+    filter: brightness(0) saturate(100%) invert(66%) sepia(28%) saturate(762%) hue-rotate(49deg) brightness(96%) contrast(89%);
+  }
+}

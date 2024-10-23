@@ -1,0 +1,58 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --red-main: #E3646E;
+  --purple-main: #BB72E9;
+  --blue-main: #3996DB;
+  --green-main: #82BC4F;
+  --yellow-main: #EABD5F;
+
+  --gray-100-base: #0D0E11;
+  --gray-200-base: #16181D;
+  --gray-300-base: #292C34;
+  --gray-400-base: #878EA1;
+  --gray-500-base: #c0c4ce;
+  --gray-600-base: #E2E4E9;
+
+  --font-family-Asap: "Asap", sans-serif;
+  --font-family-Inconsolata: "Inconsolata", sans-serif;
+  --font-family-MavenPro: "Maven Pro", sans-serif;
+
+  --title-lg: bold 56px/120% var(--font-family-Asap);
+  --title-md: bold 24px/120% var(--font-family-Asap);
+  --title-sm: bold 16px/120% var(--font-family-Asap);
+
+  --subtitle: 20px/120% var(--font-family-Inconsolata);
+
+  --text-lg: bold 16px/140% var(--font-family-MavenPro);
+  --text-md: 16px/140% var(--font-family-MavenPro);
+  --text-sm: 14px/140% var(--font-family-MavenPro);
+
+}
+
+body {
+  background-color: #29292E;
+  
+}
+
+h3 {
+  font: var(--subtitle);
+  color: var(--red-main);
+}
+
+h2 {
+  font: var(--title-md);
+  color: var(--gray-600-base);
+  margin-top: 0.5rem;
+}
+
+h4 {
+  font: var(--title-sm);
+  color: var(--gray-600-base);
+  margin-block: 1.2rem 0.25rem;
+}

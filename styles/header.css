@@ -1,0 +1,124 @@
+body > header {
+  width: 85.375rem;
+  height: 46.875rem;
+  background-image: url(assets/images/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7.5rem;
+  display: grid;
+  justify-items: center;
+  margin: auto;
+  
+
+  #profile-container {
+    width: 7rem;
+    height: 7rem;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3.5rem;
+   
+
+    img:nth-child(1), img:nth-child(2), img:nth-child(3) {
+      position: absolute;
+    }
+
+    img:nth-child(1) {
+      width: 6.23rem;
+      height: 6.2rem;
+    }
+    
+    img:nth-child(2) {
+      width: 5.45rem;
+      height: 5.45rem;
+      border-radius: 50%;
+      object-fit: cover;
+      
+    }
+
+    #minor-major-position {
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  h1 {
+    font: var(--title-lg);
+    color: var(--gray-600-base);
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .subtitle {
+    font: var(--subtitle);
+    color: var(--gray-500-base);
+  }
+  
+  .flex-justify {
+    display: flex;
+    justify-content: center;
+    max-width: 42.5rem;
+    text-align: center;
+  }
+
+  .description {
+    font: var(--text-sm);
+    color: var(--gray-400-base);
+  }
+
+  .container-skill {
+    height: 2.5rem;
+    background-color: var(--gray-300-base);
+    border-radius: 30px;
+    text-align: center;
+    padding-inline: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    & figcaption {
+      font: var(--text-md);
+      color: var(--gray-500-base);
+    }
+    
+    .icon-size {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    #github-icon-color {
+      filter: brightness(0) saturate(100%) invert(92%) sepia(11%) saturate(186%) hue-rotate(185deg) brightness(86%) contrast(86%);
+    }
+    #html-icon-color {
+      filter: brightness(0) saturate(100%) invert(71%) sepia(44%) saturate(6148%) hue-rotate(314deg) brightness(90%) contrast(97%);
+    }
+    #css-icon-color {
+      filter: brightness(0) saturate(100%) invert(56%) sepia(86%) saturate(2106%) hue-rotate(180deg) brightness(92%) contrast(86%);
+    }
+    #js-icon-color {
+      filter: brightness(0) saturate(100%) invert(83%) sepia(44%) saturate(634%) hue-rotate(335deg) brightness(96%) contrast(90%);
+    }
+    #react-icon-color {
+      filter: brightness(0) saturate(100%) invert(56%) sepia(86%) saturate(2106%) hue-rotate(180deg) brightness(92%) contrast(86%);
+    }
+    #node-icon-color {
+      filter: brightness(0) saturate(100%) invert(67%) sepia(14%) saturate(1642%) hue-rotate(49deg) brightness(101%) contrast(80%);
+    }
+  }
+
+  #container-skills {
+    width: 47.125rem;
+    margin-block: 5rem 5.875rem;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  #arrow {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(23%) saturate(235%) hue-rotate(186deg) brightness(89%) contrast(86%);
+    width: 1.4375rem;
+    height: 1.4375rem;
+  }
+}

@@ -1,0 +1,69 @@
+footer {
+  width: 85.375rem;
+  background-image: url(assets/images/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8rem 7.5rem 12.5rem;
+  margin: auto;
+
+  header {
+      text-align: center;
+      margin-bottom: 3.5rem;
+  }
+
+  .color-contact {
+    color: var(--purple-main);
+  }
+
+  .description-contact {
+    font: var(--text-md);
+    color: var(--gray-500-base);
+    padding-top: 0.5rem;
+  }
+
+  #container-social {
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  button {
+    background-color: var(--gray-300-base);
+    border: none;
+    padding: 1.25rem;
+    width: 25rem;
+    height: 4.25rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+
+    .arrow2 {
+      margin-left: auto;
+      width: 0.6875rem;
+      height: 0.6875rem;
+      filter: brightness(0) saturate(100%) invert(53%) sepia(51%) saturate(707%) hue-rotate(165deg) brightness(91%) contrast(87%);
+    }
+
+    .icon-footer {
+      width: 1.75rem;
+      height: 1.75rem;
+      filter: brightness(0) saturate(100%) invert(57%) sepia(10%) saturate(527%) hue-rotate(186deg) brightness(96%) contrast(92%);
+      margin-right: 0.75rem;
+    }
+
+    span {
+      font: var(--text-lg);
+      color: var(--gray-500-base);
+    }
+  }
+
+  button:hover {
+    border: solid 1px var(--blue-main);
+    .icon-footer {
+      filter: brightness(0) saturate(100%) invert(46%) sepia(69%) saturate(411%) hue-rotate(162deg) brightness(101%) contrast(109%);
+    }
+  }
+
+  
+}
+
